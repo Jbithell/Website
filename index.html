@@ -576,15 +576,14 @@
                                     backdrop: true,
                                 });
                             }
-
-                        },error: function(XMLHttpRequest, textStatus, errorThrown) {
-			     response.fadeOut(500);
+                        }).fail(function(xhr, status, error) {
+				response.fadeOut(500);
                                 bootbox.dialog({
                                     message: "<center><i>Sorry - there was a problem. Please contact hi (at) jbithell.com instead, replacing (at) with an @ sign. </i></center>",
                                     closeButton: true,
                                     backdrop: true,
                                 });
-			  });
+			    };
                     }
                 }
             });
