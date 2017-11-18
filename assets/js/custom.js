@@ -10,6 +10,19 @@
 		$('#preloader').delay(300).fadeOut('slow');
 	});
 	*/
+    if ($(window).width() > 992) {
+    	//Set video background
+        $('#home').vide({
+            mp4: "assets/video/backgroundpicoweb.mp4",
+            poster: "assets/images/coverphoto.jpg"
+        }, {
+            posterType: "jpg",
+            loop: true,
+            muted: true,
+            position: "60% 0%"
+        });
+    }
+
 
 	$(document).ready(function() {
 
