@@ -13,8 +13,7 @@
     if ($(window).width() > 992) {
     	//Set video background
         $('#home').vide({
-            mp4: "assets/video/backgroundpicoweb.mp4",
-            poster: "assets/images/coverphoto.jpg"
+            mp4: "assets/video/backgroundpicoweb.mp4"
         }, {
             posterType: "jpg",
             loop: true,
