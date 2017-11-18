@@ -354,6 +354,7 @@ body  {
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	background-size:cover;
 }
 .letterboxbgVideo {
 	background: url("../images/alexDVideo.jpg");
@@ -361,6 +362,7 @@ body  {
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	background-size:cover;
 }
 #home {
 	background-attachment: fixed;
