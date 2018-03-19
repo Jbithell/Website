@@ -12,7 +12,8 @@
 	*/
     if ($(window).width() > 992) {
     	//Set video background
-        $('#home').vide({
+        /*
+		$('#home').vide({
             mp4: "assets/video/backgroundpicoweb.mp4"
         }, {
             posterType: "jpg",
@@ -20,6 +21,7 @@
             muted: true,
             position: "60% 0%"
         });
+        */
     }
 
 
