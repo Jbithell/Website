@@ -1,4 +1,5 @@
 # JBithell.com Website
-The official website of James Bithell
+
+Personal Website
 
 https://www.jbithell.com/
