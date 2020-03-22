@@ -403,7 +403,7 @@ $(function () {
 
 $(document).ready(function () {
 	$.ajax({
-		url: "https://jbithell.com/projects/cv/?json&type=1&forceImage=1",
+		url: "https://credits.jbithell.com/?json&type=1&forceImage=1",
 		dataType: 'json',
 		success: function(data) {
 			$(data.CREDITS).each(function (index, project) {
@@ -416,7 +416,7 @@ $(document).ready(function () {
 								<div class="box-item">` + (project['credits_images'].length > 0 ? `
 									<div class="image">
 										<a href="#popup-` + index + `" class="has-popup-media">
-											<img src="https://jbithell.com/projects/cv/images/compressed/` + project['credits_images'][0] + `" alt="` + project['credits_name'] + ` - Image Credit: ` + project['credits_images_imageCredit'] + `" />
+											<img src="https://credits.jbithell.com/images/compressed/` + project['credits_images'][0] + `" alt="` + project['credits_name'] + ` - Image Credit: ` + project['credits_images_imageCredit'] + `" />
 											<span class="info">
 												<span class="ion ion-images"></span>
 											</span>
