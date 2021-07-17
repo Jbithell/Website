@@ -4,6 +4,7 @@
   "private": false,
   "description": "James Bithell",
   "author": "James Bithell",
+  "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
