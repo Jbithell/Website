@@ -22,10 +22,11 @@ export default function Template(props) {
           }
         `}
         render={data => (
-          <Helmet htmlAttributes={{ lang: 'en' }}>
+          <Helmet htmlAttributes={{ lang: "en" }}>
             <meta charSet="utf-8" />
+            <meta name="description" content="Personal website for James Bithell"/>
             <title>{data.site.siteMetadata.title}</title>
-            <link rel="canonical" href="{data.site.siteMetadata.siteUrl}" />
+            <link rel="canonical" href={data.site.siteMetadata.siteUrl} />
           </Helmet>
         )}
       />        
