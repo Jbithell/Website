@@ -2,6 +2,15 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://jbithell.com",
     title: "James Bithell",
+    personalDetails: {
+      name: "James Bithell",
+      location: "Bristol, United Kingdom",
+      company: {
+        jobTitle: "Full Stack Developer",
+        name: "Intuety",
+        url: "https://intuety.io"
+      }
+    }
   },
   plugins: [
     "gatsby-plugin-image",
