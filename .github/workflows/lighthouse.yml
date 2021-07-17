@@ -1,8 +1,8 @@
-name: CI
+name: Lighthouse
 on: pull_request
 jobs:
   lhci:
-    name: Lighthouse
+    name: Chrome Lighthouse
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
