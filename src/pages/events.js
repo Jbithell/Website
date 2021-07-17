@@ -49,7 +49,7 @@ Experienced video director (documentary format), editor and vision mixer (includ
 
 export const pageQuery = graphql`
   query eventPostQuery {
-    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___Date] }) {
+    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___date] }) {
       edges {
         node {
           excerpt(pruneLength: 250)
@@ -59,7 +59,8 @@ export const pageQuery = graphql`
             type
             example
             Name
-            Date(formatString: "dddd DD MMMM YYYY")
+            date(formatString: "dddd DD MMMM YYYY")
+            Date
             EndDate
             Name
             Author

@@ -2,6 +2,7 @@
 example: false
 type: "liveEvent"
 slug: "1-december-2019-dance-society-competition"
+date: 2019-12-01
 Date: "1-December-2019"
 Name: "Dance Society Competition"
 Author: ""

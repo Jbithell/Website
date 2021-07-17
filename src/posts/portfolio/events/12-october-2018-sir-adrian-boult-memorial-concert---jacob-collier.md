@@ -2,6 +2,7 @@
 example: false
 type: "liveEvent"
 slug: "12-october-2018-sir-adrian-boult-memorial-concert---jacob-collier"
+date: 2018-10-11
 Date: "12-October-2018"
 EndDate: ""
 Name: "Sir Adrian Boult Memorial Concert - Jacob Collier"
