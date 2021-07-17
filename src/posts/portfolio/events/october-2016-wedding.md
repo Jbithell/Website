@@ -1,0 +1,24 @@
+---
+example: false
+type: "liveEvent"
+slug: "october-2016-wedding"
+Date: "October-2016"
+EndDate: ""
+Name: "Wedding"
+Author: ""
+Director: ""
+Venue: "Up School | Westminster School"
+Roles: ["Lighting Rigging Assistant"]
+Tags: ["Lighting"]
+EventType: "Theatre"
+PerformancesAttended: 0
+Fee: ""
+Professional: false
+Paid: false
+ImageThumb: ""
+ImageCredit: ""
+Client: ""
+---
+
+# Wedding
+

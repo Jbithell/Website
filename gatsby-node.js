@@ -45,7 +45,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     if (node.frontmatter.example !== true && types[node.frontmatter.type]) { //Examples aren't rendered
       let thisType = types[node.frontmatter.type]
-      console.log(thisType.path + node.frontmatter.slug)
       createPage({
         path: thisType.path + node.frontmatter.slug,
         component: thisType.template,

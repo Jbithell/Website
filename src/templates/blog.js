@@ -1,8 +1,9 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
+import Template from "../components/Template"
 
-export default function Template({ data }) {
+export default function PostTemplate({ data }) {
   const { markdownRemark: post } = data
   console.log(data)
   return (
